@@ -21,7 +21,9 @@ twitterStream.filter(track=["TOPIC TO SEARCH"])
 
 Once run, the client generates 3 values per tweet. These are: Tweet count, Polarity, and Sum Polarity. The polarity is a numerical estimate as to the positive/negative sentiment behind the tweet, with positive values reflecting positive sentiment and vice versa. The sum polarity is a running average of the sentiment of the tweets streamed thus far.
 
+The client now visualises data as a graph plotting the polarity of each tweet against time extracted.
+
 ## Next Steps
-- Integrate a graphical representation of the sum polarity
+- Update graph rather than re-generate graph after every tweet
 - Allow for more than one topic to be analysed concurrently
 - Generate exported file for analysis
